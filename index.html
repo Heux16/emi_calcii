@@ -9,16 +9,17 @@
 <body>
   <div class="container">
     <h2>EMI Calculator</h2>
-    <input type="number" id="loanAmount" placeholder="Loan Amount (₹) 💰" />
-    <input type="number" id="interestRate " placeholder="Interest Rate (%)📈" />
-    <input type="number" id="tenure" placeholder="Loan Tenure (months)⌛" />
-    <button id="calculateBtn">Calculate</button>
-
-    <div class="result" id="emi"></div>
+    <input type="number" id="loanAmount" placeholder="Loan Amount (₹)">
+    <input type="number" id="interestRate" placeholder="Interest Rate (%)">
+    <input type="number" id="loanTenure" placeholder="Loan Tenure (Months)">
+    <button id="calculateButton">Calculate</button>
+    
+    <div class="result" id="emiResult"></div>
     <div class="result" id="totalInterest"></div>
     <div class="result" id="totalAmount"></div>
   </div>
 
+  <!-- Script should be at the end to avoid issues with DOM elements -->
   <script src="script.js"></script>
 </body>
 </html>
